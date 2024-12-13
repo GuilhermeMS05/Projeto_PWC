@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="pt">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <title>Página principal</title>
+</head>
+
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg bg-white">
+            <div class="container">
+                <a class="navbar-brand" href="index.html"><img src="./assets/img/iplLogo.png"
+                        alt="Logotipo do Politécnico de Leiria" width="120" height="50"></a>
+
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+                    <ul class="navbar-nav">
+                        <li class="nav-item me-3"><a class="nav-link active" href="#">Home</a></li>
+                        <li class="nav-item me-3"><a class="nav-link active" href="#">Países</a></li>
+                        <li class="nav-item me-3"><a class="nav-link active" href="#">Loja</a></li>
+                        <li class="nav-item me-3"><a class="nav-link active" href="#">Sobre</a></li>
+                        <li class="nav-item"><a href="#"><button type="button"
+                                    class="btn btn-outline-primary rounded-0">Contactos</button></a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <!-- CARROSEL -->
+    <div id="carouselExampleCaptions" class="carousel slide bg-body-secondary">
+        <div class="container-fluid">
+            <div id="carouselExampleCaptions" class="carousel slide">
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+                        aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+                        aria-label="Slide 2"></button>
+                </div>
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <div class="d-flex justify-content-between align-items-center mx-auto"
+                            style="height: 60vh; width: 75vw;">
+                            <div class="text-container">
+                                <h1 style="font-size: 60px;"><b>Descobre o Japão</b></h1>
+                                <br>
+                                <p style="font-size: 13px;">Faz uma viagem pelos destinos mais deslumbrantes do
+                                    mundo.
+                                    Das ruas vibrantes de Nova
+                                    Iorque às antigas ruínas de Roma, cada imagem revela um lugar à espera de ser
+                                    explorado.</p>
+                                <p style="font-size: 13px;">Quer seja para aventura, relaxamento ou descoberta,
+                                    encontra
+                                    o teu próximo destino
+                                    connosco.</p><br>
+                                <a href="#"><button type="button"
+                                        class="btn btn-outline-primary rounded-0">Explorar</button></a>
+                            </div>
+                            <div class="image-container">
+                                <img src="./assets/img/templo.png" alt="Templo Japão" width="400px" height="370px">
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+                    data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+                    data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+        </div>
+    </div>
+    <br>
+    <!-- SECTION ESCOLHA PAÍS -->
+
+
+    <section class="mt-4">
+        <div class="container">
+            <div class="mx-auto text-center" style="width: 60%;">
+                <h1><b>Escolha o País</b></h1>
+                <p>Escolha um destino para explorar a sua singularidade, cultura e atrações. Descubra os lugares
+                    mais cativantes do mundo, cada um oferecendo experiências inesquecíveis.</p>
+            </div>
+            <br>
+            <div class="row m-0">
+                <div class="col-md-4 pb-3">
+                    <div class="card p-3 rounded-0">
+                        <img src="./assets/img/Flag_of_the_United_States.png" class="card-img-top rounded-0"
+                            height="200px" alt="EUA FLAG">
+                        <div class="text-center pt-4">
+                            <p class="card-title fw-bold">Estados Unidos da América</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 pb-3">
+                    <div class="card p-3 rounded-0">
+                        <img src="./assets/img/Flag_of_Canada.png" class="card-img-top rounded-0" height="200px"
+                            alt="CANADA FLAG">
+                        <div class="text-center pt-4">
+                            <p class="card-title fw-bold">Canadá</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 pb-3">
+                    <div class="card p-3 rounded-0">
+                        <img src="./assets/img/Flag_of_the_United_Kingdom.png" class="card-img-top rounded-0"
+                            height="200px" alt="UK FLAG">
+                        <div class="text-center pt-4">
+                            <p class="card-title fw-bold">Reino Unido</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <br>
+
+    <!-- SECTION EXPLORAR O MUNDO -->
+    <section class="bg-dark text-white mt-4">
+        <div class="container p-5">
+            <h1 class="text-center mb-4 fw-bold" style="font-size: 50px;">Explora O Mundo Connosco</h1>
+            <p class="text-center mb-5">Embarca numa aventura para descobrir os destinos mais cativantes do mundo, desde
+                paisagens urbanas vibrantes até serenas
+                maravilhas naturais. Explora o encanto único de cada país, rico em cultura, história e experiências
+                inesquecíveis. Deixa-nos ser o
+                teu guia até lugares que inspiram e despertam o espírito de exploração. Em cada viagem, descobre novas
+                perspetivas e tesouros
+                escondidos à espera de serem revelados. Começa a tua aventura hoje e cria memórias que durarão para toda
+                a vida.</p>
+            <div class="text-center mb-4">
+                <button type="button" class="btn btn-light px-4 rounded-0">Explorar</button>
+            </div>
+        </div>
+    </section>
+    <br>
+    <!-- SECTION SOBRE NÓS -->
+    <section class="mt-5">
+        <div class="container">
+            <h1 class="text-center fw-bold mb-5">Sobre Nós</h1>
+            <div class="row m-0">
+                <div class="col-md-4 pb-3">
+                    <div class="card p-3 rounded-0">
+                        <img src="" class="card-img-top rounded-0" height="300px" alt="">
+                        <div class="text-center pt-4">
+                            <h5 class="card-title fw-bold">João Lopes</h5>
+                            <p class="card-text">Estudante</p>
+                            <a href="#"><button type="button" class="btn btn-outline-primary rounded-0">Mais Informações
+                                    ></button></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 pb-3">
+                    <div class="card p-3 rounded-0">
+                        <img src="" class="card-img-top rounded-0" height="300px" alt="">
+                        <div class="text-center pt-4">
+                            <h5 class="card-title fw-bold">António</h5>
+                            <p class="card-text">Estudante</p>
+                            <a href="#"><button type="button" class="btn btn-outline-primary rounded-0">Mais Informações
+                                    ></button></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 pb-3">
+                    <div class="card p-3 rounded-0">
+                        <img src="" class="card-img-top rounded-0" height="300px" alt="">
+                        <div class="text-center pt-4">
+                            <h5 class="card-title fw-bold">Catarina</h5>
+                            <p class="card-text">Estudante</p>
+                            <a href="#"><button type="button" class="btn btn-outline-primary rounded-0">Mais Informações
+                                    ></button></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <br>
+
+    <!-- FOOTER -->
+    <footer>
+        dfsdsdfs
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+        integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js"
+        integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
