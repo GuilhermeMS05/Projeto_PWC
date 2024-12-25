@@ -1,0 +1,14 @@
+.error {
+    color: red;
+    display: none;
+    font-size: 10px;
+}
+
+#success-message {
+    opacity: 0;
+    display: none;
+}
+
+.carousel-indicators .active {
+    background-color: blue;
+}
