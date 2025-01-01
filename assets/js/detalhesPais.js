@@ -26,6 +26,7 @@ function displayCountry(arrayCountry){
     const country = arrayCountry[0];
     const currencyCode = Object.keys(country.currencies)[0];
     const languages = Object.values(country.languages);
+    const countryNamePT = country.translations["por"];
 
     let independentCountry = country.independent;
     let independentCountryHTML;
@@ -47,7 +48,7 @@ function displayCountry(arrayCountry){
             <table class="table table-hover table-bordered table-striped align-middle">
                 <thead class="table-dark text-center">
                     <tr>
-                        <th colspan="2"><h2>${country.name.common}</h2></th>
+                        <th colspan="2"><h2>${countryNamePT.common}</h2></th>
                     </tr>
                     <tr>
                         <th>Campo</th>
@@ -57,11 +58,11 @@ function displayCountry(arrayCountry){
                 <tbody>
                     <tr>
                         <td class="fw-bold">Nome Comum</td>
-                        <td>${country.name.common}</td>
+                        <td>${countryNamePT.common}</td>
                     </tr>
                     <tr>
                         <td class="fw-bold">Nome Oficial</td>
-                        <td>${country.name.official}</td>
+                        <td>${countryNamePT.official}</td>
                     </tr>
                     <tr>
                         <td class="fw-bold">Independente</td>
