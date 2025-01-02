@@ -16,6 +16,7 @@ $(document).on("click", "#favorite", function () {
 </svg>`;
 
   const countryCard = $(this).closest(".card");
+  const countryID = countryCard.find("a").attr("href");
   const countryName = countryCard.find(".card-title").text();
   const countryFlag = countryCard.find("img").attr("src");
 
@@ -29,9 +30,10 @@ $(document).on("click", "#favorite", function () {
   } else {
     $(this).html(starFilled);
 
-    favorites.push({ name: countryName, flag: countryFlag });
+    favorites.push({ id: countryID, name: countryName, flag: countryFlag });
     localStorage.setItem("favorites", JSON.stringify(favorites));
   }
+
 });
 
 function fetchCountries(inputText) {
@@ -46,8 +48,6 @@ function fetchCountries(inputText) {
     url: api_url,
     method: "GET",
     success: function (data) {
-      //dados vindos do servidor
-      console.log(data);
       //estamos a passar o ARRAY dos países devolvidos pelo servidor
       //Se olhar mos para o object data é o search
       displaycountries(data);
