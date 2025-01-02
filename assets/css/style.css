@@ -16,3 +16,12 @@
 .my-card:hover {
     border: 1px solid var(--bs-primary);
 }
+
+.banner {
+    background-image: url('img/cidade.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 400px;
+    width: 100%;
+}
