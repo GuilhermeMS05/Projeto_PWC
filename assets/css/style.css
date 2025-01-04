@@ -8,8 +8,11 @@
     opacity: 0;
 }
 
-.carousel-indicators .active {
+#carouel-indi.active {
     background-color: blue;
+}
+#carouel-nav:hover{
+    color: blue;
 }
 
 .my-card:hover {

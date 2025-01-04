@@ -40,3 +40,20 @@ function displayCountries(arrayCountries) {
     countries.append(countryCard);
   });
 }
+
+/*function displayFooter(arrayFooter) {
+  var footer = $("#iconlink");
+  footer.empty();
+
+  arrayFooter.forEach((footer) => {
+    var footericons = `<div class="col text-center " >
+                <a  href="#!"><img  src="assets/img/linkedin.png" alt="" style="height: 35px;" class="m-2"></a>
+                <a  href="#!"><img  src="assets/img/facebook.png" alt="" style="height: 35px;" class="m-2"></a>
+                <a  href="#!"><img  src="assets/img/instagram.png" alt="" style="height: 35px;" class="m-2"></a>
+                <a  href="#!"><img  src="assets/img/twitter.png" alt="" style="height: 35px;" class="m-2"></a>
+            </div>`;
+    footer.append(footericons);        
+  });
+}
+*/
+
