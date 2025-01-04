@@ -11,9 +11,7 @@
 #carouel-indi.active {
     background-color: blue;
 }
-#carouel-nav:hover{
-    color: blue;
-}
+
 
 .my-card:hover {
     border: 1px solid var(--bs-primary);
@@ -41,5 +39,9 @@
 
 #footerhover:hover{
     color: rgb(54, 103, 209);
+}
+
+.shadowbox:hover{
+    box-shadow: rgba(14, 14, 21, 0.1) 0px 4px 16px, rgba(14, 14, 21, 0.1) 0px 8px 24px, rgba(13, 13, 19, 0.1) 0px 16px 56px;
 }
 
