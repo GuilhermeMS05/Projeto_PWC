@@ -83,7 +83,6 @@ function displaycountries(arrayPaises) {
 
   const favorites = JSON.parse(localStorage.getItem("favorites")) || [];
 
-  // Percorre todas as estrelas e verifica se estão nos favoritos
   $(".card").each(function () {
     const countryName = $(this).find(".card-title").text();
     const favorite = favorites.find((fav) => fav.name === countryName);

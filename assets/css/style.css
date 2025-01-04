@@ -28,3 +28,7 @@
 .favorite{
     cursor: pointer;
 }
+
+#favorite-error {
+    display: none;
+}

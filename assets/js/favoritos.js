@@ -1,6 +1,9 @@
 $(document).ready(function () {
   const favorites = JSON.parse(localStorage.getItem("favorites")) || [];
-  console.log(favorites);
+  if (favorites.length === 0) {
+    var errorDiv = document.getElementById("favorite-error");
+    errorDiv.style.display = "block";
+  }
   displayFavoritesCountries(favorites);
 });
 
