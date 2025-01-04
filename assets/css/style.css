@@ -11,6 +11,9 @@
 #carouel-indi.active {
     background-color: blue;
 }
+#carouel-nav:hover{
+    color: blue;
+}
 
 .my-card:hover {
     border: 1px solid var(--bs-primary);
