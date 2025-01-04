@@ -32,3 +32,12 @@
 #favorite-error {
     display: none;
 }
+
+#navlink:hover {
+    color: blue;
+}
+
+#footerhover:hover{
+    color: rgb(54, 103, 209);
+}
+
